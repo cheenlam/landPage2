@@ -7,7 +7,7 @@ $bgz: 1890;
 
 body{
     background: url(../images/bg.webp) 0 0/ #{$bgz}px auto;
-    animation: bgMOve 25s linear infinite;
+    animation: bgMove 25s linear infinite;
     &::before{
         content: '';
         width: 100%;
@@ -20,7 +20,7 @@ body{
     }
 }
 
-@keyframes bgMOve{
+@keyframes bgMove{
     0%{ background-position: 0 0;}
     100%{ background-position:  -#{$bgz}px 0;}
 }
